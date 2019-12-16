@@ -125,19 +125,17 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 95px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  background: #7144d6;
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
-  padding: 10px 0;
+  height: 95px;
+  padding: 0px 0;
 }
 
 #header .logo h1 {
@@ -159,7 +157,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  max-height: 80px;
 }
 
 .main-pages {
@@ -216,9 +214,9 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
-  color: #fff;
+  background: #ffeb3b;
+  border: 2px solid #ffeb3b;
+  color: #000;
 }
 
 #intro .intro-info .btn-get-started:hover {
@@ -232,9 +230,9 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
-  color: #fff;
+  background: #ffeb3b;
+  border-color: #ffeb3b;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -244,6 +242,7 @@ h6 {
 /* Desktop Navigation */
 
 .main-nav {
+  padding-top: 30px !important;
   /* Drop Down */
   /* Deep Drop Down */
 }
@@ -264,10 +263,10 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #ffeb3b;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -275,7 +274,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -420,8 +419,8 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  margin: 18px 18px 0 0;
-  color: #004289;
+  margin: 35px 18px 0 0;
+  color: #fff;
 }
 
 .mobile-nav-overly {
@@ -1338,8 +1337,8 @@ h6 {
 
 @media (max-width: 991px) {
   #header {
-    height: 60px;
-    padding: 10px 0;
+    height: 95px;
+    padding: 0px 0;
   }
 
   #header .logo h1 {
