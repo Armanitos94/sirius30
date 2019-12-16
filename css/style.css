@@ -134,8 +134,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 95px;
-  padding: 0px 0;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3)
 }
 
 #header .logo h1 {
